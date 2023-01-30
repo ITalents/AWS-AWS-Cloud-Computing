@@ -1,4 +1,4 @@
-# Tarefa 1: Criar um Instancia EC3
+# Tarefa 1: Criar um Instancia EC2
 
 Nessa tarefa você criará uma instância do Amazon EC2, selecionando a as opções de Free Tier, dessa forma não haverá cobranças no seu cartão de crédito.
 
