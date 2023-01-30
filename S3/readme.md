@@ -13,6 +13,8 @@ Faça o download do arquivo .zip necessário para essa atividade: [Download](htt
 ## Tarefa 4: Fazer upload do conteúdo para o bucket S3
 Faça upload do arquivo index.html e também das pastas images e css
 
+![GIF mostrando como fazer o upload do conteúdo para o bucket](./imagens/terefa-3.gif)
+
 ## Tarefa 5: Criar uma política para conceder acesso publico de leitura
 ```json
 {
@@ -33,3 +35,4 @@ Faça upload do arquivo index.html e também das pastas images e css
     ]
 }
 ```
+![GIF mostrando como inserir a bucket policy para acesso publico](./imagens/terefa-4.gif)
