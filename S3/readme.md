@@ -1,10 +1,10 @@
 # SITE ESTÁTICO COM S3
 
 ## Tarefa 1: Criar um Bucket S3
-![GIF mostrando como criar bucket](https://github.com/ITalents/AWS-AWS-Cloud-Computing/blob/7fe6c38aa410d90648c95141bd66f22f5bb1b244/S3/imagens/terefa-1.gif)
+![GIF mostrando como criar bucket](./imagens/terefa-1.gif)
 
 ## Tarefa 2: Habilitar a opção de site estático
-![GIF mostrando como habilitar opção de site estático](https://github.com/ITalents/AWS-AWS-Cloud-Computing/blob/7fe6c38aa410d90648c95141bd66f22f5bb1b244/S3/imagens/terefa-2.gif)
+![GIF mostrando como habilitar opção de site estático](./imagens/terefa-2.gif)
 
 ## Tarefa 3: Fazer download do conteúdo de exemplo
 
@@ -36,3 +36,7 @@ Faça upload do arquivo index.html e também das pastas images e css
 }
 ```
 ![GIF mostrando como inserir a bucket policy para acesso publico](./imagens/terefa-4.gif)
+
+
+## Tarefa 6: Acessar o site que hospedamos através da Object URL
+![GIF mostrando como acessar o site](./imagens/terefa-5.gif)
