@@ -1,15 +1,17 @@
 # Tarefa 1: Criar um Instancia EC2
 
-Nessa tarefa você criará uma instância do *Amazon EC2*, selecionando a as opções de [*Free Tier*](https://aws.amazon.com/pt/free/), dessa forma não haverá cobranças no seu cartão de crédito.
+Nessa tarefa você criará uma instância do *Amazon EC2*, selecionando as opções de [*Free Tier*](https://aws.amazon.com/pt/free/), dessa forma não haverá cobranças no seu cartão de crédito.
 
-É extremamente importante inserir o script a baixo no campo **user-data**, conforme demonstrado no vídeo.
+Ao acessar a console, na barra de pesquisa, procure pela opção **EC2**. Depois clique no botão **launch instance**, no menu **Application and OS Images (Amazon Machine Image)** selecione a opção Ubuntu.
+
+Expanda o menu **Advanced details**, e procure por **User data** e preencha com os comandos abaixo conforme demonstrado no vídeo (gif-animado):
 
 ```bash
 #!/bin/bash
 apt-get upgrade
 apt update -y
 apt install apache2 -y
-systemctl enable apacahe2
+systemctl enable apache2
 ```
 ![GIF mostrando como criar uma instância EC2](./imagens/tarefa-1.gif)
 
